@@ -30,7 +30,7 @@ const route = useRoute();
     "
   >
     <div
-      class="site-header-content flex justify-between items-center px-8 lg:max-w-4xl xl:max-w-5xl max-w-6xl mx-auto"
+      class="flex justify-between items-center px-8 lg:max-w-4xl xl:max-w-5xl max-w-6xl mx-auto"
     >
       <div class="w-8 h-10">
         <NuxtLink to="/">
@@ -93,7 +93,7 @@ const route = useRoute();
         </NuxtLink>
       </div>
       <div
-        class="nav-primary wrap space-x-4 font-acumin-pro-condensed font-light text-base uppercase"
+        class="wrap space-x-4 font-acumin-pro-condensed font-light text-base uppercase"
       >
         <NuxtLink
           v-for="headerLink in headerLinks"
@@ -102,6 +102,15 @@ const route = useRoute();
           class="hover:text-my-gold transition-all duration-300"
         >
           <span itemprop="name" class="text-lg">{{ headerLink.text }}</span>
+        </NuxtLink>
+        <NuxtLink to="https://auth.jeredleisey.com">
+          <button
+            type="button"
+            :class="route.path === '/contact' ? 'text-white' : 'text-black'"
+            class="text-center font-acumin-pro-condensed font-light text-base uppercase ease-out duration-200 rounded-md outline-none transition-all outline-0 focus-visible:outline-4 focus-visible:outline-offset-1 border hover:border-gray-400 shadow-sm px-2.5 py-1"
+          >
+            <span class="text-ellipsis">Sign in</span>
+          </button>
         </NuxtLink>
       </div>
     </div>
