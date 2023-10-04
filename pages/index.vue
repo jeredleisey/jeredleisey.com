@@ -16,7 +16,12 @@ enum links {
         <nav class="mt-12">
           <ul class="flex flex-col font-semibold">
             <li v-for="(link, i) in links">
-              <NuxtLink :to="'/' + i">{{ link }}</NuxtLink>
+              <NuxtLink
+                :to="'/' + i"
+                class="hover:text-gray-400 transition-all"
+              >
+                {{ link }}
+              </NuxtLink>
             </li>
           </ul>
         </nav>
