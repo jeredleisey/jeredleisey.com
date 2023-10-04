@@ -1,1 +1,6 @@
 @import url('https://use.typekit.net/xnx2llc.css');
+
+@font-face {
+  font-family: Neue-Montreal;
+  src: url('../fonts/PPNeueMontreal-Thin.otf');
+}

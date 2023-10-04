@@ -24,6 +24,7 @@ export default {
         'hwt-aetna-streamer-outline': 'hwt-aetna-streamer-outline',
         'operetta-32': 'operetta-32',
         'acier-bat-gris': 'acier-bat-gris',
+        'neue-montreal': 'Neue-Montreal',
       },
     },
   },
