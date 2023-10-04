@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "name": "feature",
+      "display_name": null,
+      "created_at": "2023-09-30T03:00:04.035Z",
+      "updated_at": "2023-09-30T03:00:04.035Z",
+      "id": 109863,
+      "schema": {
+        "name": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "feature",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "grid",
+      "display_name": null,
+      "created_at": "2023-09-30T03:00:04.023Z",
+      "updated_at": "2023-09-30T03:00:04.023Z",
+      "id": 109862,
+      "schema": {
+        "columns": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "grid",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "page",
+      "display_name": null,
+      "created_at": "2023-09-30T03:00:03.999Z",
+      "updated_at": "2023-09-30T03:00:03.999Z",
+      "id": 109860,
+      "schema": {
+        "body": {
+          "type": "bloks"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": true,
+      "preview_tmpl": null,
+      "is_nestable": false,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "page",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    },
+    {
+      "name": "teaser",
+      "display_name": null,
+      "created_at": "2023-09-30T03:00:04.011Z",
+      "updated_at": "2023-09-30T03:00:04.011Z",
+      "id": 109861,
+      "schema": {
+        "headline": {
+          "type": "text"
+        }
+      },
+      "image": null,
+      "preview_field": null,
+      "is_root": false,
+      "preview_tmpl": null,
+      "is_nestable": true,
+      "all_presets": [],
+      "preset_id": null,
+      "real_name": "teaser",
+      "component_group_uuid": null,
+      "color": null,
+      "icon": null
+    }
+  ]
+}

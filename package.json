@@ -4,14 +4,19 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "NODE_TLS_REJECT_UNAUTHORIZED=0 nuxt dev --https --ssl-cert localhost.pem --ssl-key localhost-key.pem",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "generate-sb-types": "sudo storyblok pull-components --space 1016811 && storyblok-generate-ts source=./components.1016811.json target=./component-types-sb"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "nuxt": "^3.7.3"
+    "nuxt": "^3.7.3",
+    "storyblok-generate-ts": "^1.15.1"
+  },
+  "dependencies": {
+    "@storyblok/nuxt": "^5.7.1"
   }
 }
