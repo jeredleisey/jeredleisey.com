@@ -13,10 +13,12 @@
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/three": "^0.156.0",
     "nuxt": "^3.7.3",
     "storyblok-generate-ts": "^1.15.1"
   },
   "dependencies": {
-    "@storyblok/nuxt": "^5.7.1"
+    "@storyblok/nuxt": "^5.7.1",
+    "three": "^0.157.0"
   }
 }
